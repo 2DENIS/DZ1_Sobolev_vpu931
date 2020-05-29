@@ -36,7 +36,6 @@ namespace DZ1_Sobolev_vpu931
             double r = num2.Real * num2.Real + num2.Imaginary * num2.Imaginary;
             return new ComplexNumber((num1.Real * num2.Real+ num1.Imaginary * num2.Imaginary)/r, (num2.Real*num1.Imaginary - num2.Imaginary * num1.Real)/r);
 
-
         }
 
     }
